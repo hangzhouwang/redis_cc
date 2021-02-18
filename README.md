@@ -6,7 +6,8 @@ redis cc攻击防护
 
 ```php
 
-//下载文件放入到网站目录，本例为:bootstrap目录，index.php 引入
+//下载文件放入到网站目录，本例为:bootstrap目录，index.php 文件头引入
+//注意，请在文件头引入此文件
 
 require __DIR__.'/../bootstrap/cc_guard.php';
 ```
